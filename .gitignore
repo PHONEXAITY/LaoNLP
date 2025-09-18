@@ -21,61 +21,7 @@ wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Data files (too large for git)
-data/raw/**/*.txt
-data/raw/**/*.json
-data/raw/**/*.jsonl
-data/raw/**/*.csv
-data/interim/**/*.txt
-data/interim/**/*.json
-data/interim/**/*.jsonl
-data/processed/**/*.txt
-data/processed/**/*.json
-data/processed/**/*.jsonl
-*.parquet
-*.arrow
-
-# Model files
-models/checkpoints/**/*.bin
-models/checkpoints/**/*.safetensors
-models/pretrained/**/*.bin
-models/pretrained/**/*.safetensors
-*.model
-*.pkl
-*.pickle
-
-# Logs
-*.log
-logs/
-wandb/
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
 # Node.js (for web app)
 node_modules/
@@ -84,12 +30,6 @@ node_modules/
 dist/
 .cache/
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # Temporary files
 tmp/
